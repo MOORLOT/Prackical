@@ -19,23 +19,80 @@
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/main.css">
 
-  <meta name="theme-color" content="#fafafa">
 </head>
 
-<body>
+</body>
+<div class="div-header" id="header">
+  <nav>
+    <ul class="nav-links">
+      <li><a href="">Головна</a></li>
+      <li><a href="">Тести</a></li>
+      <li><a href="">Про нас</a></li>
+    </ul>
+    <img class="logo"
+         src="https://firebasestorage.googleapis.com/v0/b/codeless-app.appspot.com/o/projects%2FbbJ7PuWk90BONJPD5Aho%2Fdeecc99d376e726118d32c459e70ca5a?alt=media&amp;token=106a53bd-8982-45e3-b30c-b59c9bb9d80d"/>
+  </nav>
+</div>
+<div class="content">
+  <div class="motto">
+    Вивчення нового <br>
+    починається з
+    <!--    <a>
+          Вивчення нового <br>
+          починається з
+        </a>-->
+    <br>
+    <img class="logo"
+         src="https://firebasestorage.googleapis.com/v0/b/codeless-app.appspot.com/o/projects%2FbbJ7PuWk90BONJPD5Aho%2Fdeecc99d376e726118d32c459e70ca5a?alt=media&amp;token=106a53bd-8982-45e3-b30c-b59c9bb9d80d"/>
+  </div>
+  <div class="і">
+    Вивчення нового <br>
+    починається з
+    <!--    <a>
+          Вивчення нового <br>
+          починається з
+        </a>-->
+    <br>
+    <img class="logo"
+         src="https://firebasestorage.googleapis.com/v0/b/codeless-app.appspot.com/o/projects%2FbbJ7PuWk90BONJPD5Aho%2Fdeecc99d376e726118d32c459e70ca5a?alt=media&amp;token=106a53bd-8982-45e3-b30c-b59c9bb9d80d"/>
+  </div>
+  <!-- <p>
+     Про Question
+   </p>
+   <p>
+     Даний проєкт створений <br/>
+     для розвитку молодшого покоління
+   </p>
+   <p>
+     Questions – це проєкт де кожен поціновувач книг може відшукати собі місце.
+   </p>
+   <p>
+     Questions - це репрезентація сучасних технології в кооперації з пам’яткою
+     минулого.
+   </p>
+   <p>
+     Questions – це інноваційне майбутнє для розвитку сучасної молоді, бо знання це
+     сила, а книги – це ключ до знань
+   </p>-->
+</div>
+<!--<footer class="site-footer">F</footer>-->
 
-  <!-- Add your site or application content here -->
-  <p>Hello world! This is HTML5 Boilerplate.</p>
-  <script src="js/vendor/modernizr-3.11.2.min.js"></script>
-  <script src="js/plugins.js"></script>
-  <script src="js/main.js"></script>
-
-  <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
-  <script>
-    window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
-    ga('create', 'UA-XXXXX-Y', 'auto'); ga('set', 'anonymizeIp', true); ga('set', 'transport', 'beacon'); ga('send', 'pageview')
-  </script>
-  <script src="https://www.google-analytics.com/analytics.js" async></script>
 </body>
 
+<script>
+  window.onscroll = function () {
+    myFunction()
+  };
+
+  var header = document.getElementById("header");
+  var sticky = header.offsetTop;
+
+  function myFunction() {
+    if (window.pageYOffset > sticky) {
+      header.classList.add("sticky");
+    } else {
+      header.classList.remove("sticky");
+    }
+  }
+</script>
 </html>
