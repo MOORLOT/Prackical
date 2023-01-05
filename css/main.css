@@ -1,39 +1,18 @@
 * {
-  margin: 0;
-  padding: 0;
   font-family: "poppins", sans-serif;
   box-sizing: border-box;
 }
 
-html, body {
-  margin: 0px; /* Remove browser default margins */
-  padding: 0px; /* Remove browser default padding */
-}
-
-html {
-  height: 100%; /* Helps min-height work properly on body */
-}
-
 body {
-  position: relative; /* Assist "position: absolute" below */
-  /*padding-bottom: 60px;  Must match footer height; make up for footer being removed from the document flow */
-  /*min-height: 100%; !* Force body to be at least the size of the screen *!*/
-  background: grey; /* Backup color */
-  background: url('../img/Background.png');
-  background-repeat: no-repeat;
-  background-position: bottom;
-  -webkit-background-size: cover;
-  font-family: sans-serif;
-  color: white;
+  background: #121212; /* Backup color */
 }
 
 .div-header {
-  height: 75px;
+  height: 65px;
   width: 100%;
   padding: 0 7%;
-  background: #1A1A23;
+  background: #121212;
   position: relative;
-  /*backdrop-filter: blur(10px);*/
 }
 
 .sticky {
@@ -54,70 +33,97 @@ body {
 nav {
   display: flex;
   align-items: center;
-  justify-content: flex-start;
+  height: 65px;
+  width: 100%;
 }
 
 .nav-links {
-  padding: 28px 0;
-  margin-left: 16%;
+  width: 400px;
+  display: contents;
 }
 
 .nav-links li {
   display: inline-block;
-  margin: 0 15px;
+  margin: 0.5% 3%;
 }
 
 .nav-links li a {
   text-decoration: none;
-  color: #fff;
-  padding: 5px 0;
-  justify-content: center;
+  display: grid;
   text-align: center;
+  box-sizing: border-box;
   font-size: 20px;
-  font-family: Libre Franklin;
+  font-family: Montserrat;
   font-weight: 700;
   color: white;
-  letter-spacing: 0;
-  text-overflow: ellipsis;
+  align-items: center;
 }
 
 .logo {
-  margin-left: 10%;
-  width: 200px;
+  height: 30px;
+  margin-left: 14%
 }
 
-.motto {
+.nav-bar {
+  height: 1px;
+  white: 100%;
+  background: #2f2f2f;
+}
+
+.nav-link {
+  margin-left: auto;
+  margin-right: 3%;
+  text-decoration: none;
+  margin-left: auto;
+  text-decoration: none;
   display: grid;
-  position: absolute;
-  left: 38%;
-  top: 200px;
-  justify-content: center;
   text-align: center;
   box-sizing: border-box;
-  font-size: 50px;
-  font-family: Libre Franklin;
+  font-size: 20px;
+  font-family: Montserrat;
   font-weight: 700;
   color: white;
-  margin-left: 2%;
-  letter-spacing: 0;
-  line-height: 50px;
-  text-overflow: ellipsis;
-  overflow: hidden;
-}
-.motto .logo{
-  margin-top: 2%;
-  margin-left: 0;
-  width: 400px;
-  height: 77px;
+  align-items: center;
 }
 
-/* Footer */
-.site-footer {
-  position: absolute; /* Helps us position at the bottom; footer no longer takes up space in the flow of the document */
-  bottom: 0px;
-  width: 100%;
+.complex-img-1 {
+  width: 1405px;
+  height: 905px;
+  position: absolute;
+  left: 250px;
+  top: 150px;
+}
+
+.complex-img-2 {
+  width: 1200px;
+  height: 670px;
+  position: absolute;
+  left: 350px;
+  top: 150px;
+}
+
+.div-button-3 {
+  width: 150px;
+  height: 75px;
+  position: absolute;
+  left: 880px;
+  top: 750px;
+}
+
+.complex-img-3{
+  width: 35px;
   height: 60px;
-  padding: 15px;
-  background: rgb(44, 44, 44); /* Backup color */
-  background: rgba(44, 44, 44, 0.5);
+/*  display: flex;
+  justify-content: center;
+  align-items: center;*/
+  left: 880px;
+  top: 750px;
+}
+
+.body-stage-1{
+  width: 100%;
+  height: 870px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
