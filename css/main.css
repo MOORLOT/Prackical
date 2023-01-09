@@ -53,15 +53,14 @@ nav {
   text-align: center;
   box-sizing: border-box;
   font-size: 20px;
-  font-family: Montserrat;
-  font-weight: 700;
   color: white;
   align-items: center;
 }
 
 .logo {
   height: 30px;
-  margin-left: 14%
+  margin-left: 14%;
+  content: url(https://firebasestorage.googleapis.com/v0/b/codeless-app.appspot.com/o/projects%2Fujer6fRShphjMpI4qYVg%2F6f30d5a8038da7397eb20524bc2de319?alt=media&amp;token=7510c47c-e278-44a2-93e3-894f69dcbf91);
 }
 
 .nav-bar {
@@ -80,8 +79,6 @@ nav {
   text-align: center;
   box-sizing: border-box;
   font-size: 20px;
-  font-family: Montserrat;
-  font-weight: 700;
   color: white;
   align-items: center;
 }
@@ -89,41 +86,50 @@ nav {
 .complex-img-1 {
   width: 1405px;
   height: 905px;
+  z-index: -1;
+  content: url(https://firebasestorage.googleapis.com/v0/b/codeless-app.appspot.com/o/projects%2Fujer6fRShphjMpI4qYVg%2F922482db737845826139605e3fb6df7e?alt=media&amp;token=786d8362-5992-4a66-aa52-9b8e61bc9749);
+}
+
+.body-stage-2 {
+  width: 100%;
+  display: grid;
   position: absolute;
-  left: 250px;
-  top: 150px;
+  justify-content: center;
 }
 
 .complex-img-2 {
-  width: 1200px;
-  height: 670px;
+  width: 1213px;
+  height: 674px;
+  z-index: 1;
+  content: url(https://firebasestorage.googleapis.com/v0/b/codeless-app.appspot.com/o/projects%2Fujer6fRShphjMpI4qYVg%2F89df3733837699a613459d1dbd90d0f9?alt=media&amp;token=e216b671-41e2-4bf0-b820-26e8839be4c7);
+}
+
+.body-stage-3 {
+  width: 100%;
+  display: grid;
   position: absolute;
-  left: 350px;
-  top: 150px;
+  justify-content: center;
+  margin-top: 33%;
+
 }
 
 .div-button-3 {
-  width: 150px;
-  height: 75px;
-  position: absolute;
-  left: 880px;
-  top: 750px;
+
 }
 
-.complex-img-3{
-  width: 35px;
-  height: 60px;
-/*  display: flex;
-  justify-content: center;
-  align-items: center;*/
-  left: 880px;
-  top: 750px;
+.complex-img-3 {
+  width: 30px;
+  height: 40px;
+  content: url(https://firebasestorage.googleapis.com/v0/b/codeless-app.appspot.com/o/projects%2Fujer6fRShphjMpI4qYVg%2F9101077a426fcc36e4648601034cd5b1?alt=media&amp;token=69171622-b7d4-4dea-86f2-6d7a47a06542);
+
 }
 
-.body-stage-1{
+.body-stage-1 {
   width: 100%;
   height: 870px;
-  display: flex;
+  display: grid;
+  margin-top: 4%;
   justify-content: center;
-  align-items: center;
 }
+
+/**/
