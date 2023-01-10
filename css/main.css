@@ -5,7 +5,9 @@
 
 body {
   background: #121212; /* Backup color */
-  height: 1050px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
 }
 
 .div-header {
@@ -191,11 +193,9 @@ nav {
 /*Тут можлива адаптація через падінг*/
 .introduction-part-1 {
   width: 100%;
-  height: 200px;
+  height: 20em;
   display: grid;
-  top: 1000px;
-  position: absolute;
-  grid-template-columns: 500px 700px 500px;
+  grid-template-columns: 30em 50em 30em;
   align-items: center;
   padding: 0px 7%;
   flex-flow: row nowrap;
@@ -249,7 +249,7 @@ nav {
   width: 100%;
   height: 430px;
   top: 1260px;
-  position: absolute;
+  /*position: absolute;*/
   padding: 0px 7%;
   justify-content: center;
   font-style: normal;
@@ -261,9 +261,6 @@ nav {
 }
 
 .introduction-text-3 {
-  position: relative;
-  top: -200px;
-  width: 280px;
 }
 
 #a-1 {
@@ -273,14 +270,170 @@ nav {
 }
 
 .bar {
-  top: 1284px;
-  left: 30%;
   height: 1px;
   width: 200px;
-  position: absolute;
   background: #D9FF40;
 }
 
-.introduction-part-3{}
+.introduction-part-3 {
+  display: grid;
+  grid-template-columns: 15em 10em 77em;
+  padding: 0px 16%;
+  margin-top: 2em;
+  align-items: center;
+  align-content: center;
+  flex-flow: row nowrap;
+  justify-content: center;
+  width: 100%;
+}
 
-/*    */
+.introduction-text-global a {
+  box-sizing: border-box;
+  font-size: 50px;
+  font-weight: 600;
+  color: #F1F1F1;
+  letter-spacing: 0;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+.normalizator {
+  align-items: center;
+  align-content: center;
+  flex-flow: row nowrap;
+  justify-content: center;
+  width: 100%;
+  display: grid;
+  padding: 0px 20%;
+  top: 1400px;
+}
+
+#a-2 {
+  width: 850px;
+  box-sizing: border-box;
+  font-size: 25px;
+  font-weight: 400;
+  color: #F1F1F1;
+  letter-spacing: 0;
+  line-height: 40px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+#norm-0 {
+  height: 60em;
+}
+
+/*Group-3 start*/
+.group-3 {
+  width: 100%;
+  height: 30em;
+  padding: 1em;
+  display: grid;
+  grid-template-columns: 25em 25em 25em;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.group-3-1 {
+  height: 20em;
+  width: 20em;
+  background: rgb(213, 255, 64);
+  background: radial-gradient(circle, rgba(213, 255, 64, 1) 0%, rgba(215, 255, 64, 1) 50%, rgba(255, 247, 64, 1) 100%);
+  border-radius: 1em;
+  display: grid;
+  justify-content: center;
+  text-align: center;
+  align-items: start;
+}
+
+.group-3-title {
+  color: #121212;
+  font-weight: 100;
+  font-size: 1.5em;
+}
+
+.group-3-text {
+  color: #121212;
+  font-style: normal;
+  font-weight: 100;
+  font-size: 1.1em;
+}
+
+.group-3-norm {
+  margin-top: 1em;
+}
+
+#group-3-1_1 {
+  width: 4em;
+  height: 4em;
+  margin-top: 1em;
+  content: url(https://firebasestorage.googleapis.com/v0/b/codeless-app.appspot.com/o/projects%2Fujer6fRShphjMpI4qYVg%2F0b2aa13fda5673c84b7704f1b8415462?alt=media&amp;token=0d40a4c0-5dc1-404d-9a09-8f9e3d6064f1);
+
+}
+
+#group-3-1_2 {
+  width: 4em;
+  height: 4em;
+  margin-top: 1em;
+  content: url(https://firebasestorage.googleapis.com/v0/b/codeless-app.appspot.com/o/projects%2Fujer6fRShphjMpI4qYVg%2F7765c89d136af23db558e219a364229c?alt=media&amp;token=f5188acb-555e-4357-bfc9-71284858f3dc);
+}
+
+#group-3-1_3 {
+  width: 4em;
+  height: 4em;
+  margin-top: 1em;
+  content: url(https://firebasestorage.googleapis.com/v0/b/codeless-app.appspot.com/o/projects%2Fujer6fRShphjMpI4qYVg%2F90fa1c6ec1748ba1cc7c0735dba8ea70?alt=media&amp;token=d2259dbd-ccad-46bd-980f-17a30352cba7);
+}
+
+/*Group-3 end*/
+
+/*Footer start*/
+.footer {
+  width: 100%;
+  height: 15em;
+  background: #121212;
+  padding: 1em;
+  display: grid;
+  grid-template-columns: 35em 28em 50em 1em;
+  align-items: center;
+  justify-content: center;
+}
+
+#footer-logo {
+  height: 4em;
+  width: 20em;
+  content: url(https://firebasestorage.googleapis.com/v0/b/codeless-app.appspot.com/o/projects%2Fujer6fRShphjMpI4qYVg%2F960b80db32cd2e5acdd029437a8c7559?alt=media&amp;token=d9b2b22f-6eea-4783-9fe2-4f307ddee294);
+}
+
+.footer-element-data {
+  text-align: center;
+}
+
+.footer-element-data a {
+  color: #8C8C8C;
+  font-size: 0.8em
+}
+
+.footer-element-data p {
+  color: #F1F1F1;
+  font-size: 0.9em
+}
+
+.footer-element-onTop {
+  color: #F1F1F1;
+  font-size: 0.9em;
+  font-weight: 1000;
+  letter-spacing: -1px;
+  transform: rotate(180deg);
+  writing-mode: vertical-rl;
+}
+
+/*Footer end*/
+
+/*
+gradient color
+background: rgb(213,255,64);
+background: radial-gradient(circle, rgba(213,255,64,1) 0%, rgba(215,255,64,1) 50%, rgba(255,247,64,1) 100%);
+*/
