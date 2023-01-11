@@ -1,5 +1,5 @@
 * {
-  font-family: "poppins", sans-serif;
+  font-family: Montserrat, serif;
   box-sizing: border-box;
 }
 
@@ -10,6 +10,7 @@ body {
   flex-direction: column;
 }
 
+/*Header (START)*/
 .div-header {
   position: relative;
   width: 100%;
@@ -41,7 +42,7 @@ nav {
   align-items: center;
   height: 65px;
   width: 100%;
-  grid-template-columns: 15em 15em 15em 36em 31em;
+  grid-template-columns: 10em 10em 10em 10em 14em 40em;
 }
 
 .nav-links {
@@ -89,14 +90,62 @@ nav {
   color: white;
   align-items: center;
 }
+/*Header (END)*/
 
+/*Footer start*/
+.footer {
+  width: 100%;
+  height: 15em;
+  background: #121212;
+  padding: 1em;
+  display: grid;
+  grid-template-columns: 35em 28em 50em 1em;
+  align-items: center;
+  justify-content: center;
+}
+.footer-element-logo{
+  text-align: center;
+}
+#footer-logo {
+  height: 4em;
+  width: 20em;
+  content: url(https://firebasestorage.googleapis.com/v0/b/codeless-app.appspot.com/o/projects%2Fujer6fRShphjMpI4qYVg%2F960b80db32cd2e5acdd029437a8c7559?alt=media&amp;token=d9b2b22f-6eea-4783-9fe2-4f307ddee294);
+}
+
+.footer-element-data {
+  text-align: center;
+}
+
+#f-el-d-1 {
+  color: #8C8C8C;
+  font-size: 0.8em;
+  text-align: left;
+}
+
+#f-el-d-2 {
+  color: #F1F1F1;
+  font-size: 0.9em;
+  text-align: left;
+}
+
+.footer-element-onTop {
+  color: #F1F1F1;
+  font-size: 0.9em;
+  font-weight: 1000;
+  letter-spacing: -1px;
+  transform: rotate(180deg);
+  writing-mode: vertical-rl;
+}
+
+/*Footer (END)*/
+
+/*Body (Start)*/
 .complex-img-1 {
   width: 1405px;
   height: 905px;
   z-index: -1;
   content: url(https://firebasestorage.googleapis.com/v0/b/codeless-app.appspot.com/o/projects%2Fujer6fRShphjMpI4qYVg%2F922482db737845826139605e3fb6df7e?alt=media&amp;token=786d8362-5992-4a66-aa52-9b8e61bc9749);
 }
-
 
 .complex-img-2 {
   width: 1213px;
@@ -194,7 +243,6 @@ nav {
   content: url(https://firebasestorage.googleapis.com/v0/b/codeless-app.appspot.com/o/projects%2Fujer6fRShphjMpI4qYVg%2Fa92b80f2c924d09e66993da3d8559636?alt=media&amp;token=c9a9fee2-31fc-4645-8f09-f353d174fdf5);
 }
 
-/*Тут можлива адаптація через падінг*/
 .introduction-part-1 {
   width: 100%;
   height: 20em;
@@ -283,7 +331,7 @@ nav {
   display: grid;
   grid-template-columns: 15em 10em 77em;
   padding: 0px 16%;
-  margin-top: 2em;
+  margin-top: 5em;
   align-items: center;
   align-content: center;
   flex-flow: row nowrap;
@@ -301,7 +349,7 @@ nav {
   overflow: hidden;
 }
 
-.normalizator {
+.introduction-part-4 {
   align-items: center;
   align-content: center;
   flex-flow: row nowrap;
@@ -312,7 +360,7 @@ nav {
   top: 1400px;
 }
 
-#a-2 {
+#introduction-text-4-a {
   width: 850px;
   box-sizing: border-box;
   font-size: 25px;
@@ -334,7 +382,7 @@ nav {
   height: 30em;
   padding: 1em;
   display: grid;
-  grid-template-columns: 25em 25em 25em;
+  grid-template-columns: 30em 30em 30em;
   align-items: center;
   justify-content: center;
   text-align: center;
@@ -342,10 +390,10 @@ nav {
 
 .group-3-1 {
   height: 20em;
-  width: 20em;
-  background: rgb(213, 255, 64);
-  background: radial-gradient(circle, rgba(213, 255, 64, 1) 0%, rgba(215, 255, 64, 1) 50%, rgba(255, 247, 64, 1) 100%);
-  border-radius: 1em;
+  width: 26em;
+  background: radial-gradient(85.69% 206.42% at 92.24% 3.56%, #D5FF40 0%, #D7FF40 51.76%, #FFF740 100%);
+  border-radius: 5em;
+  padding: 1em;
   display: grid;
   justify-content: center;
   text-align: center;
@@ -392,49 +440,7 @@ nav {
 }
 
 /*Group-3 end*/
-
-/*Footer start*/
-.footer {
-  width: 100%;
-  height: 15em;
-  background: #121212;
-  padding: 1em;
-  display: grid;
-  grid-template-columns: 35em 28em 50em 1em;
-  align-items: center;
-  justify-content: center;
-}
-
-#footer-logo {
-  height: 4em;
-  width: 20em;
-  content: url(https://firebasestorage.googleapis.com/v0/b/codeless-app.appspot.com/o/projects%2Fujer6fRShphjMpI4qYVg%2F960b80db32cd2e5acdd029437a8c7559?alt=media&amp;token=d9b2b22f-6eea-4783-9fe2-4f307ddee294);
-}
-
-.footer-element-data {
-  text-align: center;
-}
-
-.footer-element-data a {
-  color: #8C8C8C;
-  font-size: 0.8em
-}
-
-.footer-element-data p {
-  color: #F1F1F1;
-  font-size: 0.9em
-}
-
-.footer-element-onTop {
-  color: #F1F1F1;
-  font-size: 0.9em;
-  font-weight: 1000;
-  letter-spacing: -1px;
-  transform: rotate(180deg);
-  writing-mode: vertical-rl;
-}
-
-/*Footer end*/
+/*Body (END)*/
 
 /*
 gradient color
