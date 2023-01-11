@@ -1,6 +1,5 @@
-/*All doc settings (START)*/
 * {
-  font-family: Montserrat;
+  font-family: "poppins", sans-serif;
   box-sizing: border-box;
 }
 
@@ -11,14 +10,13 @@ body {
   flex-direction: column;
 }
 
-/*All doc settings (END)*/
-
-/*Header (START)*/
 .div-header {
+  position: relative;
   width: 100%;
-  height: 8em;
-  background: rgb(18, 18, 18);
+  height: 6em;
+  background: #121212;
   padding: 1em;
+  display: grid;
   align-items: center;
   justify-content: center;
 }
@@ -39,13 +37,11 @@ body {
 }
 
 nav {
-  height: 65px;
-  width: 100%;
-  margin: 1em;
   display: grid;
   align-items: center;
-  grid-template-columns: 9em 9em 9em 30em 20em;
-  justify-content: center;
+  height: 65px;
+  width: 100%;
+  grid-template-columns: 15em 15em 15em 36em 31em;
 }
 
 .nav-links {
@@ -74,84 +70,77 @@ nav {
   content: url(https://firebasestorage.googleapis.com/v0/b/codeless-app.appspot.com/o/projects%2Fujer6fRShphjMpI4qYVg%2F6f30d5a8038da7397eb20524bc2de319?alt=media&amp;token=7510c47c-e278-44a2-93e3-894f69dcbf91);
 }
 
-
-.nav-link {
-  margin-left: auto;
-  /* margin-right: 3%; */
-  /* text-decoration: none; */
-  /* margin-left: auto; */
-  text-decoration: none;
-  /* display: grid; */
-  /* text-align: center; */
-  /* box-sizing: border-box; */
-  font-size: 20px;
-  color: white;
-  align-items: center;
-}
-
-/*Header (END)*/
-
-/*1-st frame (START)*/
-#group-1 {
-  height: 60em;
-}
-
 .nav-bar {
   height: 1px;
   white: 100%;
   background: #2f2f2f;
 }
 
-.group-1-1 {
-  width: 100%;
-  height: 53em;
+.nav-link {
+  margin-left: auto;
+  margin-right: 3%;
+  text-decoration: none;
+  margin-left: auto;
+  text-decoration: none;
   display: grid;
-  margin-top: 10em;
-  justify-content: center;
+  text-align: center;
+  box-sizing: border-box;
+  font-size: 20px;
+  color: white;
+  align-items: center;
 }
 
 .complex-img-1 {
-  width: 88em;
-  height: 57em;
+  width: 1405px;
+  height: 905px;
   z-index: -1;
   content: url(https://firebasestorage.googleapis.com/v0/b/codeless-app.appspot.com/o/projects%2Fujer6fRShphjMpI4qYVg%2F922482db737845826139605e3fb6df7e?alt=media&amp;token=786d8362-5992-4a66-aa52-9b8e61bc9749);
 }
 
-.group-1-subDiv {
-  width: 100%;
-  display: grid;
-  position: absolute;
-  justify-content: center;
-}
 
 .complex-img-2 {
-  width: 76em;
-  height: 42em;
+  width: 1213px;
+  height: 674px;
   z-index: 1;
   content: url(https://firebasestorage.googleapis.com/v0/b/codeless-app.appspot.com/o/projects%2Fujer6fRShphjMpI4qYVg%2F89df3733837699a613459d1dbd90d0f9?alt=media&amp;token=e216b671-41e2-4bf0-b820-26e8839be4c7);
 }
 
-
-.group-1-button {
+.group-1-3 {
   width: 100%;
   display: grid;
   position: absolute;
   justify-content: center;
   margin-top: 630px;
-}
-
-.div-button-g1 {
 
 }
 
-.div-logo-button {
+.div-button-3 {
+
+}
+
+.div-button-img {
   width: 30px;
   height: 40px;
   content: url(https://firebasestorage.googleapis.com/v0/b/codeless-app.appspot.com/o/projects%2Fujer6fRShphjMpI4qYVg%2F9101077a426fcc36e4648601034cd5b1?alt=media&amp;token=69171622-b7d4-4dea-86f2-6d7a47a06542);
 
 }
 
+.group-1-0 {
+  width: 100%;
+  height: 870px;
+  display: grid;
+  margin-top: 4%;
+  justify-content: center;
+}
+
 .group-1-2 {
+  width: 100%;
+  display: grid;
+  position: absolute;
+  justify-content: center;
+}
+
+.motto {
   top: -730px;
   position: relative;
   display: grid;
@@ -159,7 +148,7 @@ nav {
   justify-content: center;
 }
 
-.group-1-2 a {
+.motto a {
   font-size: 90px;
   font-weight: 400;
   color: black;
@@ -181,9 +170,31 @@ nav {
   content: url(https://firebasestorage.googleapis.com/v0/b/codeless-app.appspot.com/o/projects%2Fujer6fRShphjMpI4qYVg%2F4b1a3b5fd11df56930d71aedb3c6c4de?alt=media&amp;token=b36c5d3d-902c-4452-8d0d-d89c698ebac6);
 }
 
-/*1-st frame (END)*/
+.introduction-logo {
+  position: relative;
+  top: -80px;
+}
 
-/*2-st frame (START)*/
+.introduction-logo-1 {
+  width: 165px;
+  height: 165px;
+  z-index: -1;
+  position: absolute;
+  margin-left: 95px;
+  content: url(https://firebasestorage.googleapis.com/v0/b/codeless-app.appspot.com/o/projects%2Fujer6fRShphjMpI4qYVg%2F8f18fdea8825b936da7ec911b549f4bc?alt=media&amp;token=50b2733a-a472-42f2-a5dd-03fd4ab2c710);
+}
+
+
+.introduction-logo-2 {
+  width: 165px;
+  height: 165px;
+  z-index: 0;
+  position: absolute;
+  margin-left: 95px;
+  content: url(https://firebasestorage.googleapis.com/v0/b/codeless-app.appspot.com/o/projects%2Fujer6fRShphjMpI4qYVg%2Fa92b80f2c924d09e66993da3d8559636?alt=media&amp;token=c9a9fee2-31fc-4645-8f09-f353d174fdf5);
+}
+
+/*Тут можлива адаптація через падінг*/
 .introduction-part-1 {
   width: 100%;
   height: 20em;
@@ -227,54 +238,6 @@ nav {
   overflow: hidden;
 }
 
-.introduction-logo {
-  position: relative;
-  top: -80px;
-}
-
-.introduction-logo-1 {
-  width: 165px;
-  height: 165px;
-  z-index: -1;
-  position: absolute;
-  margin-left: 95px;
-  content: url(https://firebasestorage.googleapis.com/v0/b/codeless-app.appspot.com/o/projects%2Fujer6fRShphjMpI4qYVg%2F8f18fdea8825b936da7ec911b549f4bc?alt=media&amp;token=50b2733a-a472-42f2-a5dd-03fd4ab2c710);
-}
-
-
-.introduction-logo-2 {
-  width: 165px;
-  height: 165px;
-  z-index: 0;
-  position: absolute;
-  margin-left: 95px;
-  content: url(https://firebasestorage.googleapis.com/v0/b/codeless-app.appspot.com/o/projects%2Fujer6fRShphjMpI4qYVg%2Fa92b80f2c924d09e66993da3d8559636?alt=media&amp;token=c9a9fee2-31fc-4645-8f09-f353d174fdf5);
-}
-
-.introduction-text-global a {
-  box-sizing: border-box;
-  font-size: 50px;
-  font-weight: 600;
-  color: #F1F1F1;
-  letter-spacing: 0;
-  text-overflow: ellipsis;
-  overflow: hidden;
-}
-
-.introduction-part-2 {
-  width: 100%;
-  height: 430px;
-  top: 1260px;
-  padding: 0px 7%;
-  justify-content: center;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 40px;
-  line-height: 56px;
-  display: flex;
-  align-items: center;
-}
-
 .introduction-part-2 a {
   box-sizing: border-box;
   font-size: 45px;
@@ -286,16 +249,19 @@ nav {
   overflow: hidden;
 }
 
-.introduction-part-3 {
-  display: grid;
-  grid-template-columns: 15em 10em 77em;
-  padding: 0px 16%;
-  margin-top: 2em;
-  align-items: center;
-  align-content: center;
-  flex-flow: row nowrap;
-  justify-content: center;
+.introduction-part-2 {
   width: 100%;
+  height: 430px;
+  top: 1260px;
+  /*position: absolute;*/
+  padding: 0px 7%;
+  justify-content: center;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 56px;
+  display: flex;
+  align-items: center;
 }
 
 .introduction-text-3 {
@@ -311,6 +277,28 @@ nav {
   height: 1px;
   width: 200px;
   background: #D9FF40;
+}
+
+.introduction-part-3 {
+  display: grid;
+  grid-template-columns: 15em 10em 77em;
+  padding: 0px 16%;
+  margin-top: 2em;
+  align-items: center;
+  align-content: center;
+  flex-flow: row nowrap;
+  justify-content: center;
+  width: 100%;
+}
+
+.introduction-text-global a {
+  box-sizing: border-box;
+  font-size: 50px;
+  font-weight: 600;
+  color: #F1F1F1;
+  letter-spacing: 0;
+  text-overflow: ellipsis;
+  overflow: hidden;
 }
 
 .normalizator {
@@ -336,7 +324,9 @@ nav {
   overflow: hidden;
 }
 
-/*2-st frame (END)*/
+#group-1 {
+  height: 60em;
+}
 
 /*Group-3 start*/
 #group-3 {
@@ -445,3 +435,9 @@ nav {
 }
 
 /*Footer end*/
+
+/*
+gradient color
+background: rgb(213,255,64);
+background: radial-gradient(circle, rgba(213,255,64,1) 0%, rgba(215,255,64,1) 50%, rgba(255,247,64,1) 100%);
+*/
