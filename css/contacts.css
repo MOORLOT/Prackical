@@ -1,0 +1,144 @@
+* {
+  font-family: Montserrat, serif;
+  box-sizing: border-box;
+}
+
+body {
+  background: #121212; /* Backup color */
+  min-height: 100vh;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+/*Header (START)*/
+.div-header {
+  position: relative;
+  width: 100%;
+  height: 6em;
+  background: #121212;
+  padding: 1em;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.content {
+  padding: 0 7%;
+  display: grid;
+}
+
+.sticky + .content {
+  padding-top: 100px;
+}
+
+nav {
+  display: grid;
+  align-items: center;
+  height: 65px;
+  width: 100%;
+  grid-template-columns: 10em 10em 10em 10em 14em 40em;
+}
+
+.nav-links {
+  width: 400px;
+  display: contents;
+}
+
+.nav-links li {
+  display: inline-block;
+  margin: 0.5% 3%;
+}
+
+.nav-links li a {
+  text-decoration: none;
+  display: grid;
+  text-align: center;
+  box-sizing: border-box;
+  font-size: 20px;
+  color: white;
+  align-items: center;
+}
+
+.logo {
+  height: 30px;
+  margin-left: 14%;
+  content: url(https://firebasestorage.googleapis.com/v0/b/codeless-app.appspot.com/o/projects%2Fujer6fRShphjMpI4qYVg%2F3d35d0ba2f455e2a5b551e34d7039453?alt=media&amp;token=bbd82a33-b466-44bb-a101-fb20eed7b15b);
+}
+
+.nav-bar {
+  height: 1px;
+  white: 100%;
+  background: #2f2f2f;
+}
+
+.nav-link {
+  margin-left: auto;
+  margin-right: 3%;
+  text-decoration: none;
+  margin-left: auto;
+  text-decoration: none;
+  display: grid;
+  text-align: center;
+  box-sizing: border-box;
+  font-size: 20px;
+  color: white;
+  align-items: center;
+}
+/*Header (END)*/
+
+/*Footer start*/
+.footer {
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 15em;
+  background: #121212;
+  padding: 1em;
+  display: grid;
+  grid-template-columns: 35em 28em 50em 1em;
+  align-items: center;
+  justify-content: center;
+}
+.footer-element-logo{
+  text-align: center;
+}
+#footer-logo {
+  height: 4em;
+  width: 20em;
+  content: url(https://firebasestorage.googleapis.com/v0/b/codeless-app.appspot.com/o/projects%2Fujer6fRShphjMpI4qYVg%2Fc4c08b1e5bcea3b95b484b7ba76316c3?alt=media&amp;token=4c86c31c-6161-46a7-a94a-b801a78314a4);
+}
+
+.footer-element-data {
+  text-align: center;
+}
+
+#f-el-d-1 {
+  color: #8C8C8C;
+  font-size: 0.8em;
+  text-align: left;
+}
+
+#f-el-d-2 {
+  color: #F1F1F1;
+  font-size: 0.9em;
+  text-align: left;
+}
+
+.footer-element-onTop {
+  color: #F1F1F1;
+  font-size: 0.9em;
+  font-weight: 1000;
+  letter-spacing: -1px;
+  transform: rotate(180deg);
+  writing-mode: vertical-rl;
+}
+
+/*Footer (END)*/
