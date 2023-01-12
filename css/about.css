@@ -1,0 +1,273 @@
+* {
+  font-family: Montserrat, serif;
+  box-sizing: border-box;
+}
+
+body {
+  background: #121212; /* Backup color */
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/*Header (START)*/
+.div-header {
+  position: relative;
+  width: 100%;
+  height: 6em;
+  background: #121212;
+  padding: 1em;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.content {
+  padding: 0 7%;
+  display: grid;
+}
+
+.sticky + .content {
+  padding-top: 100px;
+}
+
+nav {
+  display: grid;
+  align-items: center;
+  height: 65px;
+  width: 100%;
+  grid-template-columns: 10em 10em 10em 10em 14em 40em;
+}
+
+.nav-links {
+  width: 400px;
+  display: contents;
+}
+
+.nav-links li {
+  display: inline-block;
+  margin: 0.5% 3%;
+}
+
+.nav-links li a {
+  text-decoration: none;
+  display: grid;
+  text-align: center;
+  box-sizing: border-box;
+  font-size: 20px;
+  color: white;
+  align-items: center;
+}
+
+.logo {
+  height: 30px;
+  margin-left: 14%;
+  content: url(https://firebasestorage.googleapis.com/v0/b/codeless-app.appspot.com/o/projects%2Fujer6fRShphjMpI4qYVg%2F3d35d0ba2f455e2a5b551e34d7039453?alt=media&amp;token=bbd82a33-b466-44bb-a101-fb20eed7b15b);
+}
+
+.nav-bar {
+  height: 1px;
+  white: 100%;
+  background: #2f2f2f;
+}
+
+.nav-link {
+  margin-left: auto;
+  margin-right: 3%;
+  text-decoration: none;
+  margin-left: auto;
+  text-decoration: none;
+  display: grid;
+  text-align: center;
+  box-sizing: border-box;
+  font-size: 20px;
+  color: white;
+  align-items: center;
+}
+
+/*Header (END)*/
+
+/*Footer start*/
+.footer {
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 15em;
+  background: #121212;
+  padding: 1em;
+  display: grid;
+  grid-template-columns: 35em 28em 50em 1em;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-element-logo {
+  text-align: center;
+}
+
+#footer-logo {
+  height: 4em;
+  width: 20em;
+  content: url(https://firebasestorage.googleapis.com/v0/b/codeless-app.appspot.com/o/projects%2Fujer6fRShphjMpI4qYVg%2F3d35d0ba2f455e2a5b551e34d7039453?alt=media&amp;token=bbd82a33-b466-44bb-a101-fb20eed7b15b);
+}
+
+.footer-element-data {
+  text-align: center;
+}
+
+#f-el-d-1 {
+  color: #8C8C8C;
+  font-size: 0.8em;
+  text-align: left;
+}
+
+#f-el-d-2 {
+  color: #F1F1F1;
+  font-size: 0.9em;
+  text-align: left;
+}
+
+.footer-element-onTop {
+  color: #F1F1F1;
+  font-size: 0.9em;
+  font-weight: 1000;
+  letter-spacing: -1px;
+  transform: rotate(180deg);
+  writing-mode: vertical-rl;
+}
+
+/*Footer (END)*/
+
+/*body elements (START)*/
+
+#group-1 {
+  display: grid;
+  height: auto;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  padding: 4em;
+  justify-items: center;
+  grid-template-columns: 45em 45em;
+}
+
+.author-card {
+  display: flex;
+  width: 30em;
+  height: 60em;
+  box-shadow: 0em 0em 1em 0.1em #7F4EFE;
+  align-items: center;
+  justify-items: center;
+  border-radius: 7em;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  transition: all .2s;
+}
+
+.author-card a {
+  box-sizing: border-box;
+  color: #F1F1F1;
+  letter-spacing: 0;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  text-align: left;
+}
+
+.author-card p {
+  box-sizing: border-box;
+  color: #F1F1F1;
+  letter-spacing: 0;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  text-align: left;
+}
+
+.author-logo {
+  height: 8.375em;
+  width: 8.375em;
+  background-color: #7f4efe;
+  border-radius: 15em;
+}
+
+#author-logo-0 {
+  height: 8.375em;
+  width: 8.375em;
+  border-radius: 15em;
+  content: url(https://firebasestorage.googleapis.com/v0/b/codeless-app.appspot.com/o/projects%2Fujer6fRShphjMpI4qYVg%2Fb28fef2154e4a0245c9cbd7e6d3d905c?alt=media&amp;token=08b29f55-aad9-49bd-bb7a-bce486fda854);
+}
+
+#author-logo-1 {
+  height: 8.375em;
+  width: 8.375em;
+  border-radius: 15em;
+  content: url(https://firebasestorage.googleapis.com/v0/b/codeless-app.appspot.com/o/projects%2Fujer6fRShphjMpI4qYVg%2Fcfea99b07584e1f9546d35769ba61f98?alt=media&amp;token=8110be0f-64b9-4c2c-901c-0611c35e07a7);
+}
+
+.author-name {
+  font-size: 1.5625em;
+  font-weight: bold;
+  margin-top: 1em;
+  margin-bottom: 0em;
+}
+
+.author-elem-groups {
+  display: grid;
+  justify-content: center;
+  justify-items: center;
+  grid-template-columns: 13em 13em;
+}
+
+.element {
+  width: 10em;
+  height: 3em;
+  box-shadow: 0em 0em 1em 0.01em #7f4efe;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  justify-items: center;
+  margin-top: 1.8em;
+  border-radius: 5em;
+}
+
+.author-exp {
+  font-size: 1.25em;
+  font-weight: bold;
+  margin-top: 1.3em;
+  margin-bottom: 0em;
+}
+
+.author-workingWith {
+  font-size: 1.25em;
+  font-weight: bold;
+  margin-top: 1.3em;
+  margin-bottom: 0em;
+}
+
+.author-workingWith {
+  font-size: 1.25em;
+  font-weight: bold;
+  margin-top: 1.3em;
+  margin-bottom: 0em;
+}
+
+.status_bar {
+  height: 5px;
+  background-color: #F1F1F1;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.status_bar div {
+  background-color: #7f4efe;
+  height: 100%;
+}
+
+/*body elements (END)*/
