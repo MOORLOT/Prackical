@@ -140,5 +140,8 @@ nav {
   transform: rotate(180deg);
   writing-mode: vertical-rl;
 }
-
 /*Footer (END)*/
+
+#group-1 {
+  min-height: 38.4375em;
+}

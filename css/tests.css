@@ -155,6 +155,7 @@ nav {
   align-items: center;
   padding: 2em;
   justify-items: center;
+  min-height: 38.4375em;
 }
 .card {
   display: grid;
