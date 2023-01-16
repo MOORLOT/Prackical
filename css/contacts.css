@@ -82,8 +82,6 @@ nav {
   margin-left: auto;
   margin-right: 3%;
   text-decoration: none;
-  margin-left: auto;
-  text-decoration: none;
   display: grid;
   text-align: center;
   box-sizing: border-box;
@@ -91,6 +89,7 @@ nav {
   color: white;
   align-items: center;
 }
+
 /*Header (END)*/
 
 /*Footer start*/
@@ -107,9 +106,11 @@ nav {
   align-items: center;
   justify-content: center;
 }
-.footer-element-logo{
+
+.footer-element-logo {
   text-align: center;
 }
+
 #footer-logo {
   height: 4em;
   width: 20em;
@@ -142,3 +143,188 @@ nav {
 }
 
 /*Footer (END)*/
+
+#group-1 {
+  min-height: 38.4375em;
+  display: grid;
+  justify-content: center;
+  flex-wrap: nowrap;
+  grid-template-columns: 20em 20em 30em;
+  padding: 2em;
+}
+
+#group-1-0 {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-content: center;
+  align-items: center;
+}
+
+#group-1-1 {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-content: center;
+  align-items: center;
+}
+
+#group-1-2 {
+  display: flex;
+  /* padding-top: 2em; */
+  /* padding-left: 6em; */
+  width: 30em;
+  height: 35em;
+  box-shadow: 0em 0em 1em 0.1em #7f4efe;
+  border-radius: 6.25em;
+  flex-direction: column;
+  transition: all .2s;
+  align-content: center;
+  align-items: center;
+  color: #F1F1F1;
+}
+
+#group-1-2 h1 {
+  box-sizing: border-box;
+  color: #F1F1F1;
+  letter-spacing: 0;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  text-align: left;
+}
+
+#group-1-2 p {
+  box-sizing: border-box;
+  color: #F1F1F1;
+  letter-spacing: 0;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  text-align: left;
+}
+
+.button {
+  width: 10em;
+  height: 3em;
+  box-shadow: 0em 0em 0em 0.1em #7f4efe;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  justify-items: center;
+  margin-top: 1.8em;
+  border-radius: 5em;
+}
+
+.button a {
+  box-sizing: border-box;
+  color: #F1F1F1;
+  letter-spacing: 0;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  padding: 1em;
+  height: 3em;
+  width: 10em;
+  text-align: center;
+  text-align-last: center;
+  text-decoration: none;
+}
+
+#logo0 {
+  height: 8.375em;
+  width: 8.375em;
+  border-radius: 15em;
+  content: url(https://firebasestorage.googleapis.com/v0/b/codeless-app.appspot.com/o/projects%2Fujer6fRShphjMpI4qYVg%2Fb28fef2154e4a0245c9cbd7e6d3d905c?alt=media&amp;token=08b29f55-aad9-49bd-bb7a-bce486fda854);
+}
+
+#logo1 {
+  height: 8.375em;
+  width: 8.375em;
+  border-radius: 15em;
+  content: url(https://firebasestorage.googleapis.com/v0/b/codeless-app.appspot.com/o/projects%2Fujer6fRShphjMpI4qYVg%2Fcfea99b07584e1f9546d35769ba61f98?alt=media&amp;token=8110be0f-64b9-4c2c-901c-0611c35e07a7);
+}
+
+#Name {
+  width: 20em;
+  height: 3em;
+  padding: 1em;
+  box-shadow: 0em 0em 1em 0.1em #7f4efe;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  justify-items: center;
+  margin-top: 1.8em;
+  border-radius: 2em;
+  color: #ffffff;
+  letter-spacing: 0;
+  background: #121212;
+  --timing: 0.3s;
+  --width-of-input: 200px;
+  --height-of-input: 40px;
+  --border-height: 2px;
+  --input-bg: #fff;
+  --border-color: #2f2ee9;
+  --border-radius: 30px;
+  --after-border-radius: 1px;
+  position: relative;
+/*  width: var(--width-of-input);
+  height: var(--height-of-input);
+  display: flex;
+  align-items: center;*/
+  padding-inline: 0.8em;
+/*  border-radius: var(--border-radius);*/
+  transition: border-radius 0.5s ease;
+  background: var(--input-bg,#fff);
+
+}
+
+#Email {
+  width: 20em;
+  height: 3em;
+  padding: 1em;
+  box-shadow: 0em 0em 1em 0.1em #7f4efe;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  justify-items: center;
+  margin-top: 1.8em;
+  border-radius: 2em;
+  color: #ffffff;
+  letter-spacing: 0;
+  background: #121212;
+}
+
+#Message {
+  width: 25em;
+  height: 10em;
+  padding: 1em;
+  box-shadow: 0em 0em 1em 0.1em #7f4efe;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  justify-items: center;
+  margin-top: 1.8em;
+  border-radius: 2em;
+  color: #ffffff;
+  letter-spacing: 0;
+  background: #121212;
+}
+
+#fcf-form-id {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#fcf-button {
+  margin: 1em;
+  background: #7F4EFE;
+  border-color: #7F4EFE;
+  box-shadow: 0em 0em 1em 0.1em #7f4efe;
+  border-radius: 83px;
+  box-sizing: border-box;
+  color: #F1F1F1;
+  letter-spacing: 0;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  text-align: left;
+}
