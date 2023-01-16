@@ -220,7 +220,12 @@ nav {
   letter-spacing: 0;
   text-overflow: ellipsis;
   overflow: hidden;
-  text-align: left;
+  padding: 1em;
+  height: 3em;
+  width: 10em;
+  text-align: center;
+  text-align-last: center;
+  text-decoration: none;
 }
 
 #logo0 {
@@ -241,7 +246,7 @@ nav {
   width: 20em;
   height: 3em;
   padding: 1em;
-  box-shadow: 0em 0em 0em 0.1em #7f4efe;
+  box-shadow: 0em 0em 1em 0.1em #7f4efe;
   display: grid;
   justify-content: center;
   align-items: center;
@@ -251,6 +256,23 @@ nav {
   color: #ffffff;
   letter-spacing: 0;
   background: #121212;
+  --timing: 0.3s;
+  --width-of-input: 200px;
+  --height-of-input: 40px;
+  --border-height: 2px;
+  --input-bg: #fff;
+  --border-color: #2f2ee9;
+  --border-radius: 30px;
+  --after-border-radius: 1px;
+  position: relative;
+/*  width: var(--width-of-input);
+  height: var(--height-of-input);
+  display: flex;
+  align-items: center;*/
+  padding-inline: 0.8em;
+/*  border-radius: var(--border-radius);*/
+  transition: border-radius 0.5s ease;
+  background: var(--input-bg,#fff);
 
 }
 
@@ -258,7 +280,7 @@ nav {
   width: 20em;
   height: 3em;
   padding: 1em;
-  box-shadow: 0em 0em 0em 0.1em #7f4efe;
+  box-shadow: 0em 0em 1em 0.1em #7f4efe;
   display: grid;
   justify-content: center;
   align-items: center;
@@ -274,7 +296,7 @@ nav {
   width: 25em;
   height: 10em;
   padding: 1em;
-  box-shadow: 0em 0em 0em 0.1em #7f4efe;
+  box-shadow: 0em 0em 1em 0.1em #7f4efe;
   display: grid;
   justify-content: center;
   align-items: center;
@@ -297,7 +319,7 @@ nav {
   margin: 1em;
   background: #7F4EFE;
   border-color: #7F4EFE;
-  box-shadow: 0px 0px 29px -2px #7f4efe;
+  box-shadow: 0em 0em 1em 0.1em #7f4efe;
   border-radius: 83px;
   box-sizing: border-box;
   color: #F1F1F1;
