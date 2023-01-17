@@ -5,7 +5,7 @@
 
 body {
   background: #121212; /* Backup color */
-  min-height: 100vh;
+  height: auto;
   display: flex;
   flex-direction: column;
 }
@@ -68,7 +68,7 @@ nav {
 .logo {
   height: 30px;
   margin-left: 14%;
-  content: url(https://firebasestorage.googleapis.com/v0/b/codeless-app.appspot.com/o/projects%2Fujer6fRShphjMpI4qYVg%2F3d35d0ba2f455e2a5b551e34d7039453?alt=media&amp;token=bbd82a33-b466-44bb-a101-fb20eed7b15b);
+  content: url(D:/Prackical/Prackical/img/purpur-logo.png);
 }
 
 .nav-bar {
@@ -115,7 +115,7 @@ nav {
 #footer-logo {
   height: 4em;
   width: 20em;
-  content: url(https://firebasestorage.googleapis.com/v0/b/codeless-app.appspot.com/o/projects%2Fujer6fRShphjMpI4qYVg%2F3d35d0ba2f455e2a5b551e34d7039453?alt=media&amp;token=bbd82a33-b466-44bb-a101-fb20eed7b15b);
+  content: url(D:/Prackical/Prackical/img/purpur-logo.png);
 }
 
 .footer-element-data {
@@ -203,14 +203,13 @@ nav {
   height: 8.375em;
   width: 8.375em;
   border-radius: 15em;
-  content: url(https://firebasestorage.googleapis.com/v0/b/codeless-app.appspot.com/o/projects%2Fujer6fRShphjMpI4qYVg%2Fb28fef2154e4a0245c9cbd7e6d3d905c?alt=media&amp;token=08b29f55-aad9-49bd-bb7a-bce486fda854);
-}
+  content: url(D:/Prackical/Prackical/img/logo-au-0.png);}
 
 #author-logo-1 {
   height: 8.375em;
   width: 8.375em;
   border-radius: 15em;
-  content: url(https://firebasestorage.googleapis.com/v0/b/codeless-app.appspot.com/o/projects%2Fujer6fRShphjMpI4qYVg%2Fcfea99b07584e1f9546d35769ba61f98?alt=media&amp;token=8110be0f-64b9-4c2c-901c-0611c35e07a7);
+  content: url(D:/Prackical/Prackical/img/logo-au-1.png);
 }
 
 .author-name {

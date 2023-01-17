@@ -5,7 +5,6 @@
 
 body {
   background: #121212; /* Backup color */
-  min-height: 100vh;
   height: auto;
   display: flex;
   flex-direction: column;
@@ -69,7 +68,7 @@ nav {
 .logo {
   height: 30px;
   margin-left: 14%;
-  content: url(https://firebasestorage.googleapis.com/v0/b/codeless-app.appspot.com/o/projects%2Fujer6fRShphjMpI4qYVg%2F3d35d0ba2f455e2a5b551e34d7039453?alt=media&amp;token=bbd82a33-b466-44bb-a101-fb20eed7b15b);
+  content: url(D:/Prackical/Prackical/img/purpur-logo.png);
 }
 
 .nav-bar {
@@ -81,6 +80,8 @@ nav {
 .nav-link {
   margin-left: auto;
   margin-right: 3%;
+  text-decoration: none;
+  margin-left: auto;
   text-decoration: none;
   display: grid;
   text-align: center;
@@ -114,7 +115,7 @@ nav {
 #footer-logo {
   height: 4em;
   width: 20em;
-  content: url(https://firebasestorage.googleapis.com/v0/b/codeless-app.appspot.com/o/projects%2Fujer6fRShphjMpI4qYVg%2Fc4c08b1e5bcea3b95b484b7ba76316c3?alt=media&amp;token=4c86c31c-6161-46a7-a94a-b801a78314a4);
+  content: url(D:/Prackical/Prackical/img/purpur-logo.png);
 }
 
 .footer-element-data {
@@ -171,10 +172,8 @@ nav {
 
 #group-1-2 {
   display: flex;
-  /* padding-top: 2em; */
-  /* padding-left: 6em; */
   width: 30em;
-  height: 35em;
+  height: 38em;
   box-shadow: 0em 0em 1em 0.1em #7f4efe;
   border-radius: 6.25em;
   flex-direction: column;
@@ -232,14 +231,14 @@ nav {
   height: 8.375em;
   width: 8.375em;
   border-radius: 15em;
-  content: url(https://firebasestorage.googleapis.com/v0/b/codeless-app.appspot.com/o/projects%2Fujer6fRShphjMpI4qYVg%2Fb28fef2154e4a0245c9cbd7e6d3d905c?alt=media&amp;token=08b29f55-aad9-49bd-bb7a-bce486fda854);
+  content: url(D:/Prackical/Prackical/img/logo-au-0.png);
 }
 
 #logo1 {
   height: 8.375em;
   width: 8.375em;
   border-radius: 15em;
-  content: url(https://firebasestorage.googleapis.com/v0/b/codeless-app.appspot.com/o/projects%2Fujer6fRShphjMpI4qYVg%2Fcfea99b07584e1f9546d35769ba61f98?alt=media&amp;token=8110be0f-64b9-4c2c-901c-0611c35e07a7);
+  content: url(D:/Prackical/Prackical/img/logo-au-1.png);
 }
 
 #Name {
@@ -256,24 +255,6 @@ nav {
   color: #ffffff;
   letter-spacing: 0;
   background: #121212;
-  --timing: 0.3s;
-  --width-of-input: 200px;
-  --height-of-input: 40px;
-  --border-height: 2px;
-  --input-bg: #fff;
-  --border-color: #2f2ee9;
-  --border-radius: 30px;
-  --after-border-radius: 1px;
-  position: relative;
-/*  width: var(--width-of-input);
-  height: var(--height-of-input);
-  display: flex;
-  align-items: center;*/
-  padding-inline: 0.8em;
-/*  border-radius: var(--border-radius);*/
-  transition: border-radius 0.5s ease;
-  background: var(--input-bg,#fff);
-
 }
 
 #Email {
@@ -306,6 +287,7 @@ nav {
   color: #ffffff;
   letter-spacing: 0;
   background: #121212;
+  resize: none;
 }
 
 #fcf-form-id {
@@ -316,15 +298,19 @@ nav {
 }
 
 #fcf-button {
-  margin: 1em;
-  background: #7F4EFE;
-  border-color: #7F4EFE;
+  margin: 2em;
+  border: none;
+  height: 3em;
+  width: 10em;
+  height: 3em;
+  width: 12em;
+  background: #7f4efe;
   box-shadow: 0em 0em 1em 0.1em #7f4efe;
   border-radius: 83px;
   box-sizing: border-box;
-  color: #F1F1F1;
+  color: #ffffff;
   letter-spacing: 0;
   text-overflow: ellipsis;
   overflow: hidden;
-  text-align: left;
+  text-align: center;
 }

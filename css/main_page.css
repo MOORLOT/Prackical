@@ -68,7 +68,7 @@ nav {
 .logo {
   height: 30px;
   margin-left: 14%;
-  content: url(https://firebasestorage.googleapis.com/v0/b/codeless-app.appspot.com/o/projects%2Fujer6fRShphjMpI4qYVg%2F6f30d5a8038da7397eb20524bc2de319?alt=media&amp;token=7510c47c-e278-44a2-93e3-894f69dcbf91);
+  content: url(D:/Prackical/Prackical/img/green-logo.png);
 }
 
 .nav-bar {
@@ -115,7 +115,7 @@ nav {
 #footer-logo {
   height: 4em;
   width: 20em;
-  content: url(https://firebasestorage.googleapis.com/v0/b/codeless-app.appspot.com/o/projects%2Fujer6fRShphjMpI4qYVg%2F960b80db32cd2e5acdd029437a8c7559?alt=media&amp;token=d9b2b22f-6eea-4783-9fe2-4f307ddee294);
+  content: url(D:/Prackical/Prackical/img/green-logo.png);
 }
 
 .footer-element-data {
@@ -147,10 +147,10 @@ nav {
 
 /*Body (Start)*/
 .complex-img-1 {
-  width: 1405px;
-  height: 905px;
+  width: 1230px;
+  height: 680px;
   z-index: -1;
-  content: url(https://firebasestorage.googleapis.com/v0/b/codeless-app.appspot.com/o/projects%2Fujer6fRShphjMpI4qYVg%2F922482db737845826139605e3fb6df7e?alt=media&amp;token=786d8362-5992-4a66-aa52-9b8e61bc9749);
+  content: url(D:/Prackical/Prackical/img/main_img.png);
 }
 
 .complex-img-2 {
@@ -219,10 +219,10 @@ nav {
 }
 
 .motto-img {
-  height: 35%;
+  height: 90%;
   margin-top: 5%;
   margin-left: 10%;
-  content: url(https://firebasestorage.googleapis.com/v0/b/codeless-app.appspot.com/o/projects%2Fujer6fRShphjMpI4qYVg%2F4b1a3b5fd11df56930d71aedb3c6c4de?alt=media&amp;token=b36c5d3d-902c-4452-8d0d-d89c698ebac6);
+  content: url(D:/Prackical/Prackical/img/black-logo.png);
 }
 
 .introduction-logo {
@@ -236,7 +236,7 @@ nav {
   z-index: -1;
   position: absolute;
   margin-left: 95px;
-  content: url(https://firebasestorage.googleapis.com/v0/b/codeless-app.appspot.com/o/projects%2Fujer6fRShphjMpI4qYVg%2F8f18fdea8825b936da7ec911b549f4bc?alt=media&amp;token=50b2733a-a472-42f2-a5dd-03fd4ab2c710);
+  content: url(D:/Prackical/Prackical/img/logo-main-0.png);
 }
 
 
@@ -246,7 +246,7 @@ nav {
   z-index: 0;
   position: absolute;
   margin-left: 95px;
-  content: url(https://firebasestorage.googleapis.com/v0/b/codeless-app.appspot.com/o/projects%2Fujer6fRShphjMpI4qYVg%2Fa92b80f2c924d09e66993da3d8559636?alt=media&amp;token=c9a9fee2-31fc-4645-8f09-f353d174fdf5);
+  content: url(D:/Prackical/Prackical/img/logo-main.png);
 }
 
 .introduction-part-1 {
@@ -428,7 +428,7 @@ nav {
   width: 4em;
   height: 4em;
   margin-top: 1em;
-  content: url(https://firebasestorage.googleapis.com/v0/b/codeless-app.appspot.com/o/projects%2Fujer6fRShphjMpI4qYVg%2F0b2aa13fda5673c84b7704f1b8415462?alt=media&amp;token=0d40a4c0-5dc1-404d-9a09-8f9e3d6064f1);
+  content: url(D:/Prackical/Prackical/img/icon-PC.png);
 
 }
 
@@ -436,21 +436,12 @@ nav {
   width: 4em;
   height: 4em;
   margin-top: 1em;
-  content: url(https://firebasestorage.googleapis.com/v0/b/codeless-app.appspot.com/o/projects%2Fujer6fRShphjMpI4qYVg%2F7765c89d136af23db558e219a364229c?alt=media&amp;token=f5188acb-555e-4357-bfc9-71284858f3dc);
+  content: url(D:/Prackical/Prackical/img/icon-PC-pencil.png);
 }
 
 #group-3-1_3 {
   width: 4em;
   height: 4em;
   margin-top: 1em;
-  content: url(https://firebasestorage.googleapis.com/v0/b/codeless-app.appspot.com/o/projects%2Fujer6fRShphjMpI4qYVg%2F90fa1c6ec1748ba1cc7c0735dba8ea70?alt=media&amp;token=d2259dbd-ccad-46bd-980f-17a30352cba7);
+  content: url(D:/Prackical/Prackical/img/icon-innovation.png);
 }
-
-/*Group-3 end*/
-/*Body (END)*/
-
-/*
-gradient color
-background: rgb(213,255,64);
-background: radial-gradient(circle, rgba(213,255,64,1) 0%, rgba(215,255,64,1) 50%, rgba(255,247,64,1) 100%);
-*/

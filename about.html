@@ -13,8 +13,8 @@
   <meta property="og:image" content="">
 
   <link rel="manifest" href="site.webmanifest">
-  <link rel="apple-touch-icon" href="icon.png">
-  <!-- Place favicon.ico in the root directory -->
+  <link rel="apple-touch-icon" href="D:/Prackical/Prackical/img/icon.png">
+  <link rel="icon" type="image/x-icon" href="D:/Prackical/Prackical/img/icon.png">
   <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/about.css">
@@ -105,60 +105,14 @@
   <div class="footer-element-empty">
 
   </div>
-  <div class="footer-element-onTop">
+  <div class="footer-element-onTop" id="to-top">
     <a>
       Телепортуватись у гору >
     </a>
   </div>
 </footer>
 </body>
-<script>
-  var skills0 = [
-    {"name": "Іноземна мова: Англійська", "width": 83},
-    {"name": "SQL", "width": 75},
-    {"name": "Java", "width": 72},
-    {"name": "Kotlin", "width": 70},
-    {"name": "HTML + CSS", "width": 87},
-    {"name": "C++", "width": 35}
-  ];
-
-  var skills_html = "";
-  skills0.forEach(function (item, index) {
-
-    skills_html += `
-            <div>
-                <div class="status_bar_a">${item.name}</div>
-                <div class="status_bar">
-                    <div style="width: ${item.width}%"></div>
-                </div>
-            </div>
-            `;
-  });
-
-  var skillsDiv0 = document.getElementById('skills-0');
-  skillsDiv0.innerHTML = skills_html;
-
-  var skills1 = [
-    {"name": "Іноземна мова: Англійська", "width": 75},
-    {"name": "Photoshop", "width": 90},
-    {"name": "Figma", "width": 85},
-    {"name": "Illustrator", "width": 75},
-    {"name": "HTML + CSS", "width": 50},
-    {"name": "After Effects", "width": 35}
-  ];
-  skills_html = "";
-  skills1.forEach(function (item, index) {
-    skills_html += `
-            <div>
-                <div class="status_bar_a">${item.name}</div>
-                <div class="status_bar">
-                    <div style="width: ${item.width}%"></div>
-                </div>
-            </div>
-            `;
-  });
-
-  var skillsDiv1 = document.getElementById('skills-1');
-  skillsDiv1.innerHTML = skills_html;
-</script>
+<script src="js/footer-main-teleport.js"> </script>
+<script src="js/aboutUs-stats.js"> </script>
+</html>
 </html>

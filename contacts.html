@@ -13,8 +13,8 @@
   <meta property="og:image" content="">
 
   <link rel="manifest" href="site.webmanifest">
-  <link rel="apple-touch-icon" href="icon.png">
-  <!-- Place favicon.ico in the root directory -->
+  <link rel="apple-touch-icon" href="D:/Prackical/Prackical/img/icon.png">
+  <link rel="icon" type="image/x-icon" href="D:/Prackical/Prackical/img/icon.png">
   <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/contacts.css">
@@ -54,7 +54,7 @@
       проєкту або для відгуку</p>
     <div class="fcf-body">
       <div id="fcf-form">
-        <form id="fcf-form-id" class="fcf-form-class" method="post" action="contact-form-process.php">
+        <form id="fcf-form-id" class="fcf-form-class" method="POST" action="contact-form-process.php">
           <div class="fcf-form-group">
             <div class="fcf-input-group">
               <input type="text" id="Name" name="Name" class="fcf-form-control" maxlength="255" placeholder="Your name"
@@ -99,10 +99,12 @@
   <div class="footer-element-empty">
 
   </div>
-  <div class="footer-element-onTop">
+  <div class="footer-element-onTop" id="to-top">
     <a>
       Телепортуватись у гору >
     </a>
   </div>
 </footer>
 </body>
+<script src="js/footer-main-teleport.js"> </script>
+</html>

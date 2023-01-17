@@ -5,7 +5,7 @@
 
 body {
   background: #121212; /* Backup color */
-  min-height: 100vh;
+  height: auto;
   display: flex;
   flex-direction: column;
 }
@@ -68,7 +68,7 @@ nav {
 .logo {
   height: 30px;
   margin-left: 14%;
-  content: url(https://firebasestorage.googleapis.com/v0/b/codeless-app.appspot.com/o/projects%2Fujer6fRShphjMpI4qYVg%2F6f30d5a8038da7397eb20524bc2de319?alt=media&amp;token=7510c47c-e278-44a2-93e3-894f69dcbf91);
+  content: url(D:/Prackical/Prackical/img/green-logo.png);
 }
 
 .nav-bar {
@@ -115,7 +115,7 @@ nav {
 #footer-logo {
   height: 4em;
   width: 20em;
-  content: url(https://firebasestorage.googleapis.com/v0/b/codeless-app.appspot.com/o/projects%2Fujer6fRShphjMpI4qYVg%2F960b80db32cd2e5acdd029437a8c7559?alt=media&amp;token=d9b2b22f-6eea-4783-9fe2-4f307ddee294);
+  content: url(D:/Prackical/Prackical/img/green-logo.png);
 }
 
 .footer-element-data {
@@ -151,17 +151,19 @@ nav {
   display: grid;
   height: auto;
   width: 100%;
+  padding-bottom: 2em;
   justify-content: center;
   align-items: center;
-  padding: 2em;
   justify-items: center;
   min-height: 38.4375em;
+  grid-template-columns: 35em 30em 35em;
 }
 .card {
   display: grid;
-  width: 36.0625em;
-  height: 18.375em;
-  grid-template-columns: 15em 15em 5em;
+  width: 27em;
+  height: 12.5em;
+  margin-top: 4em;
+  grid-template-columns: 10em 12em 5em;
   align-items: center;
   justify-items: center;
   border-radius: 30px;
@@ -170,15 +172,52 @@ nav {
 }
 
 .card-logo {
-  height: 16.125em;
-  width: 10.9375em;
-  content: url(https://firebasestorage.googleapis.com/v0/b/codeless-app.appspot.com/o/projects%2Fujer6fRShphjMpI4qYVg%2F10d316d51c364d501f23cac1d1755ae3?alt=media&amp;token=ed60844a-0240-4369-9b27-3999cef3d43f);
+  height: 10.9375em;
+  width: 7.125em;
+  border-radius: 30px;
+  content: url(D:/Prackical/Prackical/img/kajdasheva-Simja.jpg);  
   transition: all .2s;
 }
 
+#card-logo-1 {
+  content: url(D:/Prackical/Prackical/img/Tygrolovy.jpg);  
+}
+#card-logo-2 {
+  content: url(D:/Prackical/Prackical/img/Enejida.jpeg);  
+}
+#card-logo-3 {
+  content: url(D:/Prackical/Prackical/img/Kateryna.jpg);  
+}
+#card-logo-4 {
+  content: url(D:/Prackical/Prackical/img/Martyn_borylja.jpg);  
+}
+#card-logo-5 {
+  content: url(D:/Prackical/Prackical/img/Chorna_rada.jpg);  
+}
+#card-logo-6 {
+  content: url(D:/Prackical/Prackical/img/morozenko.png);  
+}
+#card-logo-7 {
+  content: url(D:/Prackical/Prackical/img/Zahar_Berkut.jpg);  
+}
+#card-logo-8 {
+  content: url(D:/Prackical/Prackical/img/ja-romantyka.jpg);  
+}
+#card-logo-9 {
+  content: url(D:/Prackical/Prackical/img/ZacharovanaDesna.png);  
+}
+#card-logo-10 {
+  content: url(D:/Prackical/Prackical/img/Try_zozuli.jpg);  
+}
+
+#card-logo-11 {
+  content: url(D:/Prackical/Prackical/img/zaliznyj_ostriv.jpg);  
+}
+
 .card-logo-back {
-  height: 16.125em;
-  width: 10.9375em;
+  height: 10.9375em;
+  width: 7.125em;
+  border-radius: 30px;
   background-color: #121212;
   transition: all .2s;
 }
@@ -204,7 +243,7 @@ nav {
 .card-text-name p {
   font-size: 1.5625em;
   font-weight: bold;
-  padding-bottom: 1em;
+  padding-bottom: 0.5em;
 }
 
 .card-author p {
@@ -241,7 +280,7 @@ nav {
 .card-button-text {
   height: 1.6em;
   width: 1.725em;
-  content: url(/img/right-arrow.png);
+  content: url(D:/Prackical/Prackical/img/right-arrow.png);
   margin-top: 0.6em;
   margin-left: 0.6em;
 }
